@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy New Year 2026 🎁</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="stage">
+    <header class="top">
+      <div class="badge">✨ Happy New Year ✨</div>
+      <h1>2026</h1>
+      <p class="sub">Bấm “Mở quà” nhé, Linh 👀</p>
+    </header>
+
+    <section class="gift-area">
+      <div class="gift" id="gift" aria-label="Gift box" role="img">
+        <div class="lid">
+          <div class="bow bow-left"></div>
+          <div class="bow bow-right"></div>
+          <div class="ribbon-vert"></div>
+          <div class="ribbon-hori"></div>
+        </div>
+
+        <div class="box">
+          <div class="ribbon-vert"></div>
+          <div class="ribbon-hori"></div>
+        </div>
+
+        <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+      </div>
+
+      <button class="btn" id="openBtn">Mở quà 🎁</button>
+      <div class="hint" id="hint">Tip: bấm thêm lần nữa để “bật nắp” mạnh hơn 😄</div>
+    </section>
+
+    <section class="reveal" id="reveal" aria-hidden="true">
+      <div class="card">
+        <div class="photo-wrap">
+          <img src="assets/linh.jpg" alt="Linh" class="photo" />
+        </div>
+
+        <div class="msg">
+          <h2>Linh ơi, chúc mừng năm mới 2026 🌙</h2>
+          <p>
+            Mong 2026 sẽ “mềm” với Linh như nhạc nền quán lúc khuya,
+            “sáng” như đèn phố sau mưa, và vui theo kiểu… cười xong vẫn muốn cười tiếp.
+          </p>
+          <p class="sig">– Hari</p>
+
+          <div class="mini">
+            <span>🎆</span><span>🎇</span><span>✨</span><span>🎊</span><span>🧧</span>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <button class="btn ghost" id="replayBtn">Xem lại animation 🔁</button>
+      </footer>
+    </section>
+  </main>
+
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
