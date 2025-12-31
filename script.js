@@ -159,7 +159,7 @@ function reset() {
 openBtn.addEventListener("click", async () => {
   if (!opened) {
     opened = true;
-    hint.textContent = "Chúc mừng năm mới 2026 🎆 (kéo xuống xem lời chúc)";
+    hint.textContent = "Nếu load mãi chưa ra thì đợi khoảng 20s nhá 😜 (kéo xuống phía dưới ⬇️)";
 
     // ưu tiên mở nhanh: chạy fallback ngay lập tức
     openFallback();
